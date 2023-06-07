@@ -1,4 +1,30 @@
 @charset "utf-8";
+
+@font-face{
+    font-family: "LINE_Seed_Sans_EN";
+    src: url(../폰트/LINE_Seed_Sans_EN/App/OTF/LINESeedSans_A_Bd.otf);
+    src: url(../폰트/LINE_Seed_Sans_EN/App/OTF/LINESeedSans_A_He.otf);
+    src: url(../폰트/LINE_Seed_Sans_EN/App/OTF/LINESeedSans_A_Rg.otf);
+    src: url(../폰트/LINE_Seed_Sans_EN/App/OTF/LINESeedSans_A_Th.otf);
+    src: url(../폰트/LINE_Seed_Sans_EN/App/OTF/LINESeedSans_A_XBd.otf);
+}
+@font-face{
+    font-family: "LINE_Seed_Sans_KR";
+    src: url(../폰트/LINE_Seed_Sans_KR/OTF/LINESeedKR-Bd.otf);
+    font-weight: 800;
+}
+@font-face{
+    font-family: "LINE_Seed_Sans_KR";
+    src: url(../폰트/LINE_Seed_Sans_KR/OTF/LINESeedKR-Rg.otf);
+    font-weight: 600;
+}
+@font-face{
+    font-family: "LINE_Seed_Sans_KR";
+    src: url(../폰트/LINE_Seed_Sans_KR/OTF/LINESeedKR-Th.otf);
+    font-weight: 400;
+}
+
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +41,10 @@ img,svg,video{
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+html,body{
+    font-family: "LINE_Seed_Sans_KR";
+    font-size: 100%;
 }
 .wrap{
     overflow: hidden;
