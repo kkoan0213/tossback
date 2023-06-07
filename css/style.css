@@ -364,7 +364,7 @@
 }
 .sec-3-mySwiper .swiper-button-next::after, 
 .sec-3-mySwiper .swiper-button-prev::after{
-    color: #E7EAF6;
+    color: #162459;
     font-size: 30px;
 } 
 .sec-3-mySwiper .swiper-button-next {
@@ -858,11 +858,7 @@
     .sec-3-mySwiper .swiper-button-prev {
         top: 95% !important;
     }
-    .sec-3-mySwiper .swiper-button-next::after, 
-    .sec-3-mySwiper .swiper-button-prev::after{
-        color: #E7EAF6;
-        font-size: 30px;
-    } 
+
     .sec-3-mySwiper .swiper-button-next {
         right: 40% !important;
     }
@@ -1217,15 +1213,18 @@
 
 @media (max-width: 750px){
     .sec-3{
-        height: 500px;
+        height: 580px;
     }
     .sec-3-swiper{
-        height: 500px;
+        height: 580px;
     }
     .sec3-slide1 {
         flex-wrap: wrap;
     }
     .sec3-slide2 {
+        flex-wrap: wrap;
+    }
+    .sec3-slide3 {
         flex-wrap: wrap;
     }
     .sec3-slide1 .sec-3-in-box{
@@ -1240,6 +1239,10 @@
     }
     .sec3-slide2 .sec-3-in-box{
         width: 45%;
+        height: 45%;
+    }
+    .sec3-slide3 .sec-3-in-box{
+        width: 80%;
         height: 45%;
     }
     .sec-3-in-box .img-box{
