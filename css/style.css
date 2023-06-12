@@ -679,7 +679,6 @@
     }
     .sub-menu-box.active{
         display: flex;
-        position: absolute;
         right: 0;
     }
     .sub-in-box{
